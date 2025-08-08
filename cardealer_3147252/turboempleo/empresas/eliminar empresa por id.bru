@@ -1,0 +1,15 @@
+meta {
+  name: eliminar empresa por id
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:3010/empresas/20
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

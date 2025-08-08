@@ -1,0 +1,15 @@
+meta {
+  name: consultar todas las empresa
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:3010/empresas
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

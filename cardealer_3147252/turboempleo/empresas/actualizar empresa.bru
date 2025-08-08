@@ -1,0 +1,15 @@
+meta {
+  name: actualizar empresa
+  type: http
+  seq: 4
+}
+
+patch {
+  url: http://localhost:3010/empresas/10
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
